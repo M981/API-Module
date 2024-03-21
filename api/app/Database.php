@@ -11,9 +11,9 @@ class Database
 {
    // Database credentials
    private static $dbHost = '127.0.0.1';        // Voorkeur voor IP-adres, hoeft dan niet langs lokale DNS
-   private static $dbName = 'apimodulee';
+   private static $dbName = 'apimodule';
    private static $dbUser = 'root';
-   private static $dbPass = 'root';
+   private static $dbPass = '';
 
    // Properties to register connection and statements - PDO
    private static $dbConnection = null;
